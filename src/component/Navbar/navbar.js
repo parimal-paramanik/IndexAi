@@ -1,6 +1,6 @@
 import React from 'react'
-import logo_dark from '../../assets/images/logo-dark.png';
-import logo_light from '../../assets/images/logo-light.png';
+import logo_dark from '../../assets/images/Dhanurbgg.png';
+import logo_light from '../../assets/images/Dhanurbgg.png';
 import '../../assets/libs/@mdi/font/css/materialdesignicons.min.css';
 import '../../assets/css/tailwind.css';
 import { useState, useEffect } from 'react';

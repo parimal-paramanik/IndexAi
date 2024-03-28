@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-import BannerImage from '../../assets/images/saas/light-dash.png'
-import About1 from '../../assets/images/saas/1.png'
-import About2 from '../../assets/images/saas/2.png'
+import BannerImage from '../../assets/images/saas/11.jpeg'
+import About1 from '../../assets/images/saas/1.jpg'
+import About2 from '../../assets/images/saas/2.jpg'
 import client1 from '../../assets/images/client/01.jpg'
 import client2 from '../../assets/images/client/02.jpg'
 import client3 from '../../assets/images/client/03.jpg'
@@ -52,15 +52,16 @@ export default function IndexAi(){
                 <div className="relative grid lg:grid-cols-12 grid-cols-1 items-center mt-10 gap-[30px]">
                     <div className="lg:col-span-7">
                         <div className="lg:me-6 lg:text-start text-center">
-                            <h1 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-6xl mb-5">Access powerful AI <br/>For 
+                            <h1 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-6xl mb-5">Access to AI Augmented  
+ 
                             <TypeAnimation
                             sequence={[
-                                ' Ai Content',
+                                ' Social Content Generation',
                                 2000,
-                                ' Blog Writing',
-                                2000,
-                                ' Technical Writing',
-                                2000,
+                                // ' Blog Writing',
+                                // 2000,
+                                // ' Technical Writing',
+                                // 2000,
                             ]}
                             wrapper="span"
                             speed={50}
@@ -68,17 +69,35 @@ export default function IndexAi(){
                             repeat={Infinity}
                         />
                         </h1>
-                            <p className="text-lg max-w-xl lg:ms-0 mx-auto">Beatae cum eius, animi itaque aliquid ducimus facere dicta, vitae ipsam maiores nam sit blanditiis, quisquam expedita?</p>
+                            <p className="text-lg max-w-xl lg:ms-0 mx-auto">Sign up to enter the waitlist for our Beta Access. Revolutionize your Social Content Generation Pipeline with our AI Augmented tools and "HIT your Social Media Targets!!"
+</p>
                         
-                            <div className="subcribe-form mt-6 mb-3">
-                                <form className="relative max-w-md mx-auto lg:ms-0">
-                                    <div className="relative">
-                                        <FaRegEnvelope  className="me-2 text-base  absolute top-4 left-5"/>
-                                        <input type="email" id="aiemail" name="email" className="py-4 pe-40 ps-12 w-full h-[50px] outline-none text-black dark:text-white rounded-md bg-white/60 dark:bg-slate-900/60 shadow dark:shadow-gray-800" placeholder="support@techwind.com"/>
-                                    </div>
-                                    <button type="submit" className="py-2 px-5 inline-block font-semibold tracking-wide align-middle duration-500 text-base text-center absolute top-[2px] end-[3px] h-[46px] bg-indigo-600 hover:bg-indigo-700 border border-indigo-600 hover:border-indigo-700 text-white rounded-md">Sign Up</button>
-                                </form>
-                            </div>
+<div className="subcribe-form mt-6 mb-3">
+    <form className="relative max-w-md mx-auto lg:ms-0">
+        <div className="relative">
+            <FaRegEnvelope className="me-2 text-base absolute top-4 left-5"/>
+            <input type="email" id="aiemail1" name="email1" className="py-4 pe-40 ps-12 w-full h-[50px] outline-none text-black dark:text-white rounded-md bg-white/60 dark:bg-slate-900/60 shadow dark:shadow-gray-800" placeholder="support@techwind.com"/>
+        </div>
+        <div className="relative">
+            <FaRegEnvelope className="me-2 text-base absolute top-4 left-5"/>
+            <input type="email" id="aiemail2" name="email2" className="py-4 pe-40 ps-12 w-full h-[50px] outline-none text-black dark:text-white rounded-md bg-white/60 dark:bg-slate-900/60 shadow dark:shadow-gray-800" placeholder="support@techwind.com"/>
+        </div>
+        <div className="flex relative">
+            <div className="relative flex-grow">
+                <FaRegEnvelope className="me-2 text-base absolute top-4 left-5"/>
+                <input type="email" id="aiemail3" name="email3" className="py-4 pe-40 ps-12 w-full h-[50px] outline-none text-black dark:text-white rounded-md bg-white/60 dark:bg-slate-900/60 shadow dark:shadow-gray-800" placeholder="company name"/>
+            </div>
+            <button
+  type="button"
+  className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+>
+  Sign up
+</button>
+
+        </div>
+    </form>
+</div>
+
                         </div>
                     </div>
 
@@ -104,9 +123,10 @@ export default function IndexAi(){
                     <div className="relative p-6 md:p-8">
                         <i className="mdi mdi-account-search-outline bg-gradient-to-tl to-indigo-600 from-red-600 text-transparent bg-clip-text text-[45px]"></i>
 
-                        <h5 className="text-xl font-semibold my-5">Search & Write Content</h5>
+                        <h5 className="text-xl font-semibold my-5">AI Augmented Content Creation
+</h5>
 
-                        <p className="text-slate-400">If the distribution of letters and 'words' is random, the reader will not be distracted from making.</p>
+                        <p className="text-slate-400">Enhance & Accelerate your Social Content Generation process boosted by AI tools, trending topics, video effects, text to speech. Your defition of social media content creation will be changed forever after using Dhanur.</p>
 
                         <MdKeyboardArrowRight className="h-8 w-8 p-1 bg-indigo-600 text-white rounded-full flex justify-center items-center absolute md:top-2/4 md:-translate-y-2/4 -bottom-4 md:-end-0 end-2/4 ltr:translate-x-2/4 rtl:-translate-x-2/4 rtl:rotate-180 z-1"/>
                     </div>
@@ -114,9 +134,11 @@ export default function IndexAi(){
                     <div className="relative p-6 md:p-8">
                         <i className="mdi mdi-wallet-bifold-outline bg-gradient-to-tl to-indigo-600 from-red-600 text-transparent bg-clip-text text-[45px]"></i>
 
-                        <h5 className="text-xl font-semibold my-5">Discribe Content</h5>
+                        <h5 className="text-xl font-semibold my-5">Custom Planner & Analytics
+</h5>
 
-                        <p className="text-slate-400">If the distribution of letters and 'words' is random, the reader will not be distracted from making.</p>
+                        <p className="text-slate-400">Analytics
+Dhanur allows you to add custom tags, create campaigns, plan your social calendar, to give you a bird's eye analytics across your social media channels.</p>
 
                         <MdKeyboardArrowRight className="h-8 w-8 p-1 bg-indigo-600 text-white rounded-full flex justify-center items-center absolute md:top-2/4 md:-translate-y-2/4 -bottom-4 md:-end-0 end-2/4 ltr:translate-x-2/4 rtl:-translate-x-2/4 rtl:rotate-180 z-1"/>
                     </div>
@@ -124,9 +146,10 @@ export default function IndexAi(){
                     <div className="relative p-6 md:p-8">
                         <i className="mdi mdi-home-plus-outline bg-gradient-to-tl to-indigo-600 from-red-600 text-transparent bg-clip-text text-[45px]"></i>
 
-                        <h5 className="text-xl font-semibold my-5">Generate Content</h5>
+                        <h5 className="text-xl font-semibold my-5">AI Utilities
+</h5>
 
-                        <p className="text-slate-400">If the distribution of letters and 'words' is random, the reader will not be distracted from making.</p>
+                        <p className="text-slate-400">We provide access to micro AI utilities such as Video Background Remover, Thumbnail Generator, Auto Captions. Small steps towards making your business big.</p>
                     </div>
                 </div>
             </div>
@@ -138,13 +161,13 @@ export default function IndexAi(){
                     </div>
 
                     <div className="">
-                        <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Create Content In Single <br/> Click With AI Power</h3>
-                        <p className="text-slate-400 max-w-xl">You can combine all the Techwind templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
+                        <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Majestic Experience of <br/> Social Content Creation</h3>
+                        <p className="text-slate-400 max-w-xl">Streamline the content creation process from topic identification to publishing on social platforms, Dhanur is going to help you hit all targets. Our unique pipeline format allows you to skip to the steps you desire and pay only for the models you use.</p>
 
                         <ul className="list-none text-slate-400 mt-4">
-                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2" /> Digital Marketing Solutions for Tomorrow</li>
-                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2" /> Our Talented & Experienced Marketing Agency</li>
-                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2" /> Create your own skin to match your brand</li>
+                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2" /> Text Models for Script & Description Generation</li>
+                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2" /> Speech Models, for Audio Generation & Voice Modulation</li>
+                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2" /> Vision models, for Avatars & Scene Generation</li>
                         </ul>
 
                         <div className="mt-4">
@@ -163,12 +186,15 @@ export default function IndexAi(){
                     </div>
 
                     <div className="order-2 md:order-1">
-                        <h4 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Write Blog Posts, <br/> Stories, & Even Books</h4>
-                        <p className="text-slate-400">Due to its widespread use as filler text for layouts, non-readability is of great importance: human perception is tuned to recognize certain patterns and repetitions in texts. If the distribution of letters visual impact.</p>
+                        <h4 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">The Rolodex of Social Media 
+ <br/> Management</h4>
+                        <p className="text-slate-400">Omnichannel management, custom campaign designs and Social Content Calendars. Crucial insights at your fingertips, the way you want!
+
+</p>
                         <ul className="list-none text-slate-400 mt-4">
-                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2" /> Digital Marketing Solutions for Tomorrow</li>
-                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2" />Our Talented & Experienced Marketing Agency</li>
-                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2" /> Create your own skin to match your brand</li>
+                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2" />Campaign tracking across different channels</li>
+                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2" />Competitor Analysis</li>
+                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2" /> Content Calendar Management</li>
                         </ul>
 
                         <div className="mt-4">
@@ -182,9 +208,9 @@ export default function IndexAi(){
                 <div className="grid md:grid-cols-12 grid-cols-1 items-center gap-[30px] relative">
                     <div className="lg:col-span-8 md:col-span-12">
                         <div className="grid grid-cols-1 pb-8">
-                            <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">AI Generate Content In Seconds</h3>
+                            <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Arrows in our Quiver</h3>
         
-                            <p className="text-slate-400 max-w-xl">Launch your campaign and benefit from our expertise on designing and managing conversion centered Tailwind CSS v3.x html page.</p>
+                            <p className="text-slate-400 max-w-xl">Dhanur AI loads you up with special arrows, and helps you shoot down your "Social Media Goals"</p>
                         </div>
                     
                         <div className="grid md:grid-cols-2 grid-cols-1 mt-8 gap-[30px]">
@@ -275,7 +301,7 @@ export default function IndexAi(){
                 <div className="grid grid-cols-1 pb-8 text-center">
                     <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">What Our Users Say</h3>
 
-                    <p className="text-slate-400 max-w-xl mx-auto">Start working with Tailwind CSS that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                    <p className="text-slate-400 max-w-xl mx-auto">Our Users are the hearbeat of our Product Building Process. Check out, what they have to say about us!</p>
                 </div>
             </div>
 
