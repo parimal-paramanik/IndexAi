@@ -231,7 +231,7 @@ export default function IndexAi() {
                                         <p className="text-slate-400 mt-3">The phrasal sequence of the is now so that many campaign and benefit</p>
 
                                         <div className="mt-5">
-                                            <Link to="page-services.html" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">Read More  <FaArrowRight className="ms-2 text-[10px]" /></Link>
+                                            <p to="/" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">Read More  <FaArrowRight className="ms-2 text-[10px]" /></p>
                                         </div>
                                     </div>
                                 </div>
@@ -240,11 +240,11 @@ export default function IndexAi() {
                                     <span className="mdi mdi-email-edit-outline text-4xl bg-gradient-to-tl to-indigo-600 from-red-600 text-transparent bg-clip-text"></span>
 
                                     <div className="content mt-7">
-                                        <Link to="page-services.html" className="title h5 text-lg font-medium hover:text-indigo-600">Content Generator</Link>
+                                        <Link to="/" className="title h5 text-lg font-medium hover:text-indigo-600">Content Generator</Link>
                                         <p className="text-slate-400 mt-3">The phrasal sequence of the is now so that many campaign and benefit</p>
 
                                         <div className="mt-5">
-                                            <Link to="page-services.html" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">Read More  <FaArrowRight className="ms-2 text-[10px]" /></Link>
+                                            <Link to="/" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">Read More  <FaArrowRight className="ms-2 text-[10px]" /></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -252,11 +252,11 @@ export default function IndexAi() {
                                 <div className="px-6 py-10 shadow hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 duration-500 rounded-lg hover:bg-white hover:dark:bg-slate-900">
                                     <span className="mdi mdi-star-outline text-4xl bg-gradient-to-tl to-indigo-600 from-red-600 text-transparent bg-clip-text"></span>
                                     <div className="content mt-7">
-                                        <Link to="page-services.html" className="title h5 text-lg font-medium hover:text-indigo-600">Search Engine Optimization</Link>
+                                        <Link to="/" className="title h5 text-lg font-medium hover:text-indigo-600">Search Engine Optimization</Link>
                                         <p className="text-slate-400 mt-3">The phrasal sequence of the is now so that many campaign and benefit</p>
 
                                         <div className="mt-5">
-                                            <Link to="page-services.html" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">Read More  <FaArrowRight className="ms-2 text-[10px]" /></Link>
+                                            <Link to="/" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">Read More  <FaArrowRight className="ms-2 text-[10px]" /></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -264,11 +264,11 @@ export default function IndexAi() {
                                 <div className="px-6 py-10 shadow hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 duration-500 rounded-lg hover:bg-white hover:dark:bg-slate-900">
                                     <span className="mdi mdi-bookmark-outline text-4xl bg-gradient-to-tl to-indigo-600 from-red-600 text-transparent bg-clip-text"></span>
                                     <div className="content mt-7">
-                                        <Link to="page-services.html" className="title h5 text-lg font-medium hover:text-indigo-600">Digital name generator</Link>
+                                        <Link to="/" className="title h5 text-lg font-medium hover:text-indigo-600">Digital name generator</Link>
                                         <p className="text-slate-400 mt-3">The phrasal sequence of the is now so that many campaign and benefit</p>
 
                                         <div className="mt-5">
-                                            <Link to="page-services.html" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">Read More  <FaArrowRight className="ms-2 text-[10px]" /></Link>
+                                            <Link to="/" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">Read More  <FaArrowRight className="ms-2 text-[10px]" /></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -280,11 +280,11 @@ export default function IndexAi() {
                                 <div className="px-6 py-10 shadow hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 duration-500 rounded-lg hover:bg-white hover:dark:bg-slate-900">
                                     <span className="mdi mdi-account-check-outline text-4xl bg-gradient-to-tl to-indigo-600 from-red-600 text-transparent bg-clip-text"></span>
                                     <div className="content mt-7">
-                                        <Link to="page-services.html" className="title h5 text-lg font-medium hover:text-indigo-600">Ad Targeting tips</Link>
+                                        <Link to="/" className="title h5 text-lg font-medium hover:text-indigo-600">Ad Targeting tips</Link>
                                         <p className="text-slate-400 mt-3">The phrasal sequence of the is now so that many campaign and benefit</p>
 
                                         <div className="mt-5">
-                                            <Link to="page-services.html" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">Read More  <FaArrowRight className="ms-2 text-[10px]" /></Link>
+                                            <Link to="/" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">Read More  <FaArrowRight className="ms-2 text-[10px]" /></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -292,11 +292,11 @@ export default function IndexAi() {
                                 <div className="px-6 py-10 shadow hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 duration-500 rounded-lg hover:bg-white hover:dark:bg-slate-900">
                                     <span className="mdi mdi-comment-multiple-outline text-4xl bg-gradient-to-tl to-indigo-600 from-red-600 text-transparent bg-clip-text"></span>
                                     <div className="content mt-7">
-                                        <Link to="page-services.html" className="title h5 text-lg font-medium hover:text-indigo-600">Content Rewriter</Link>
+                                        <Link to="/" className="title h5 text-lg font-medium hover:text-indigo-600">Content Rewriter</Link>
                                         <p className="text-slate-400 mt-3">The phrasal sequence of the is now so that many campaign and benefit</p>
 
                                         <div className="mt-5">
-                                            <Link to="page-services.html" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">Read More  <FaArrowRight className="ms-2 text-[10px]" /></Link>
+                                            <Link to="/" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">Read More  <FaArrowRight className="ms-2 text-[10px]" /></Link>
                                         </div>
                                     </div>
                                 </div>
