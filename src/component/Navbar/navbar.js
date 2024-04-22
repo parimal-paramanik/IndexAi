@@ -87,7 +87,7 @@ export default function Navbar(props) {
 
                 <div id="navigation" style={{ display: isMenu ? 'block' : 'none' }}>
                     <ul className={`navigation-menu ${navClass} ${navJustify}`}>
-                        <li><Link to="/contact" className="sub-menu-item font-bold ml-[10px]">Contact Me</Link></li>
+                        <li><Link to="/contact" className="sub-menu-item font-bold ml-[10px]">Contact Us</Link></li>
                     </ul>
                 </div>
             </div>
