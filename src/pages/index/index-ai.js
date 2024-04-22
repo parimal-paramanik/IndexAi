@@ -227,7 +227,7 @@ export default function IndexAi() {
                                     <span className="mdi mdi-flip-horizontal text-4xl bg-gradient-to-tl to-indigo-600 from-red-600 text-transparent bg-clip-text"></span>
 
                                     <div className="content mt-7">
-                                        <Link to="page-services.html" className="title h5 text-lg font-medium hover:text-indigo-600">Plagiarism checker</Link>
+                                        <Link to="/" className="title h5 text-lg font-medium hover:text-indigo-600">Plagiarism checker</Link>
                                         <p className="text-slate-400 mt-3">The phrasal sequence of the is now so that many campaign and benefit</p>
 
                                         <div className="mt-5">
